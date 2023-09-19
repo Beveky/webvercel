@@ -2,17 +2,320 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE-edge" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css" />
+
+    <!-- To Link Css File -->
+    <link rel="stylesheet" type="text/css" href="Css/Styles.css" />
+    <!-- For Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Allura&family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- For Social Icon -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+    <title>My Portfolio</title>
+    <link rel="shortcut icon" href="Public/Icon2.png" />
   </head>
   <body>
-    <div id="container">
-      <h1>Container</h1>
-      <div id="inner">
-        <h2>inner div</h2>
+    <!-- The First Section "Home") -------------------->
+    <div class="First">
+      <nav>
+        <h2 class="Logo">Portfo<span>lio</span></h2>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#service">Services</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#contactus">Contact Us</a></li>
+        </ul>
+        <div class="container">
+          <button class="btn">Subscribe</button>
+        </div>
+      </nav>
+      <!-- SocialLinks -->
+      <div class="nav-social">
+        <!-- Linkedin -->
+        <a href="#" class="tooltip1"
+          ><i class="fa-brands fa-linkedin-in"></i
+        ></a>
+        <p class="ss">Linkedin</p>
+        <!-- instagram -->
+        <a href="#" class="tooltip2"><i class="fa-brands fa-instagram"></i></a>
+        <p class="ss">Instagram</p>
+        <!-- twitter -->
+        <a href="#" class="tooltip3"><i class="fa-brands fa-twitter"></i></a>
+        <p class="ss">Twitter</p>
+        <!-- youtube -->
+        <a href="#" class="tooltip4"><i class="fa-brands fa-youtube"></i></a>
+        <p class="ss">Youtube</p>
+      </div>
+
+      <!-- Div Content -->
+      <div class="content" id="Home">
+        <h4>
+          <span><span>hello</span>, my name is</span>
+        </h4>
+        <h1>Beveky</h1>
+        <h3>I'am a Web Developer.</h3>
+        <div class="mail">
+          <form>
+            <input
+              type="email"
+              name="email"
+              id="mail"
+              placeholder="Enter Your Mail"
+            />
+            <input type="submit" name="submit" value="Lets Start" />
+          </form>
+        </div>
       </div>
     </div>
+    <!-- About Section -->
+    <section class="about" id="about">
+      <div class="main">
+        <img src="Public/About2.png" alt="MyPicture" />
+        <div class="about-text">
+          <h2>About Me</h2>
+          <h5>Developer <span>& Designer</span></h5>
+          <p>
+            I'am Full-Stack Web Developer with a keen eye for design and a
+            dedication to crafting exceptional user experiences. Proficient in
+            modern front-end technologies and frameworks, I bring creativity and
+            technical expertise to every project. My mission is to create
+            beautiful and functional websites that leave a lasting impression.
+          </p>
+          <!-- lets talk button -->
+          <button type="button" class="letstalk">Let's Talk</button>
+        </div>
+      </div>
+    </section>
+    <!--  ---------------------------------------------------------------------Service Section---------------------------------------------- -->
+
+    <div class="service" id="service">
+      <div class="title">
+        <br /><br /><br />
+        <h2>Our/--><span>Services</span></h2>
+      </div>
+      <!-- testtt -->
+      <div class="test">
+        <i class="fa-regular fa-window-minimize fa-2xl"></i>
+      </div>
+      <!-- endtestt -->
+      <br /><br /><br />
+
+      <div class="box">
+        <!-- Cards Start=========================================================== -->
+        <div class="card">
+          <i class="fa-solid fa-bars"></i>
+          <h5>Full-Stack Development</h5>
+          <div class="parag">
+            <p>
+              Web development is the act of building, creating and maintaining
+              websites the act of building, creating and maintaining websites.
+            </p>
+            <br />
+            <p style="text-align: center">
+              <button type="button" class="button">Read More</button>
+            </p>
+          </div>
+        </div>
+        <!-- Cards Start=========================================================== -->
+        <div class="card1">
+          <i class="fa-solid fa-laptop-code fa-shake"></i><br />
+          <h5>Back-end development</h5>
+          <br />
+          <div class="parag">
+            <p>
+              Web development is the act of building, creating and maintaining
+              websites the act of building, creating and maintaining websites.
+            </p>
+            <br /><br />
+            <p style="text-align: center">
+              <button type="button" class="button">Read More</button>
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <i class="fa-solid fa-layer-group"></i>
+          <h5>Front-End Development</h5>
+          <div class="parag">
+            <p>
+              Web development is the act of building, creating and maintaining
+              websites the act of building, creating and maintaining websites.
+            </p>
+            <br />
+            <p style="text-align: center">
+              <button type="button" class="button">Read More</button>
+            </p>
+          </div>
+        </div>
+      </div>
+      <br />
+      <br />
+      <div class="symbole">
+        <i class="fa-solid fa-code" style="color: white"></i>
+      </div>
+    </div>
+    <!-- -----------------------------------------------------------------Skills Section------------------------------------------ -->
+    <div class="skills" id="skills">
+      <div>
+        <h2>Skills</h2>
+      </div>
+      <div class="allBande">
+        <!-- Bande1 -->
+        <div class="skillsbande">
+          <!-- ---------------Skill Bar1 -->
+          <div class="skill">
+            <div class="skill-name">Photoshop</div>
+            <div class="skill-bar">
+              <div class="skill-per" per="93%" style="max-width: 93%"></div>
+            </div>
+          </div>
+          <!-- ---------------Skill Bar2 -->
+          <div class="skill">
+            <div class="skill-name">Illustrator</div>
+            <div class="skill-bar">
+              <div class="skill-per" per="75%" style="max-width: 75%"></div>
+            </div>
+          </div>
+          <!-- ---------------Skill Bar3 -->
+          <div class="skill">
+            <div class="skill-name">Figma</div>
+            <div class="skill-bar">
+              <div class="skill-per" per="62%" style="max-width: 62%"></div>
+            </div>
+          </div>
+          <!-- ---------------Skill Bar4 -->
+          <div class="skill">
+            <div class="skill-name">Dreamweaver</div>
+            <div class="skill-bar">
+              <div class="skill-per" per="69%" style="max-width: 69%"></div>
+            </div>
+          </div>
+          <!-- ---------------Skill Bar5 -->
+          <div class="skill">
+            <div class="skill-name">WordPress</div>
+            <div class="skill-bar">
+              <div class="skill-per" per="53%" style="max-width: 53%"></div>
+            </div>
+          </div>
+        </div>
+        <!-- Bande2 -->
+        <div class="skillsbande">
+          <!-- ---------------Skill Bar1 -->
+          <div class="skill">
+            <div class="skill-name">HTML</div>
+            <div class="skill-bar">
+              <div class="skill-per" per="90%" style="max-width: 90%"></div>
+            </div>
+          </div>
+          <!-- ---------------Skill Bar2 -->
+          <div class="skill">
+            <div class="skill-name">CSS</div>
+            <div class="skill-bar">
+              <div class="skill-per" per="70%" style="max-width: 70%"></div>
+            </div>
+          </div>
+          <!-- ---------------Skill Bar3 -->
+          <div class="skill">
+            <div class="skill-name">JavaScript</div>
+            <div class="skill-bar">
+              <div class="skill-per" per="60%" style="max-width: 60%"></div>
+            </div>
+          </div>
+          <!-- ---------------Skill Bar4 -->
+          <div class="skill">
+            <div class="skill-name">BootStrap</div>
+            <div class="skill-bar">
+              <div class="skill-per" per="87%" style="max-width: 87%"></div>
+            </div>
+          </div>
+          <!-- ---------------Skill Bar5 -->
+          <div class="skill">
+            <div class="skill-name">jQuery</div>
+            <div class="skill-bar">
+              <div class="skill-per" per="50%" style="max-width: 50%"></div>
+            </div>
+          </div>
+        </div>
+        <!-- Bande3 -->
+        <div class="skillsbande">
+          <!-- ---------------Skill Bar1 -->
+          <div class="skill">
+            <div class="skill-name">PHP</div>
+            <div class="skill-bar">
+              <div class="skill-per" per="84%" style="max-width: 84%"></div>
+            </div>
+          </div>
+          <!-- ---------------Skill Bar2 -->
+          <div class="skill">
+            <div class="skill-name">Ruby</div>
+            <div class="skill-bar">
+              <div class="skill-per" per="32%" style="max-width: 32%"></div>
+            </div>
+          </div>
+          <!-- ---------------Skill Bar3 -->
+          <div class="skill">
+            <div class="skill-name">Nodejs</div>
+            <div class="skill-bar">
+              <div class="skill-per" per="58%" style="max-width: 58%"></div>
+            </div>
+          </div>
+          <!-- ---------------Skill Bar4 -->
+          <div class="skill">
+            <div class="skill-name">AngularJs</div>
+            <div class="skill-bar">
+              <div class="skill-per" per="53%" style="max-width: 53%"></div>
+            </div>
+          </div>
+          <!-- ---------------Skill Bar5 -->
+          <div class="skill">
+            <div class="skill-name">ReactJs</div>
+            <div class="skill-bar">
+              <div class="skill-per" per="76%" style="max-width: 76%"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- SocialLinks -->
+      <div class="nav-social2">
+        <!-- Linkedin -->
+        <a href="#" class="tooltip1"
+          ><i class="fa-brands fa-linkedin-in"></i
+        ></a>
+        <p class="ss2">Linkedin</p>
+        <!-- instagram -->
+        <a href="#" class="tooltip2"><i class="fa-brands fa-instagram"></i></a>
+        <p class="ss2">Instagram</p>
+        <!-- twitter -->
+        <a href="#" class="tooltip3"><i class="fa-brands fa-twitter"></i></a>
+        <p class="ss2">Twitter</p>
+        <!-- youtube -->
+        <a href="#" class="tooltip4"><i class="fa-brands fa-youtube"></i></a>
+        <p class="ss2">Youtube</p>
+      </div>
+    </div>
+    <!-- -------------------------Contact Me Section----------------------------- -->
+    <div class="contact-me" id="contactus">
+      <p>I'am Avaliable For Freelancer Projects !</p>
+      <p id="p-c">Tell me about your project story and brief</p>
+      <a class="button-two" href="#">Hire Me</a>
+    </div>
+    <!-- -------------------------Footer section------------------------ -->
+    <footer>
+      <span>Copyright 2023 - Haythem Ben Haddada</span>
+      <a href="#" class="footer-logo">Beveky Portfolio</a>
+    </footer>
   </body>
 </html>
